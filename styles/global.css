@@ -27,6 +27,10 @@ body {
     background-color: var(--bg-color);
 }
 
+img {
+    max-width: 100%;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -36,10 +40,22 @@ a:hover {
     color: var(--brand-color-light);
 }
 
-h1, h2, h3 {
-    font: inherit;
+h1 {
+    font: var(--h1);
 }
 
-img {
-    max-width: 100%;
+h2 {
+    font: var(--h2);
+}
+
+h3 {
+    font: var(--h3);
+}
+
+span {
+    font: var(--text-span);
+}
+
+p {
+    font: var(--paragraph);
 }
