@@ -31,6 +31,24 @@ img {
     max-width: 100%;
 }
 
+.container {
+    max-width: 1280px;
+    margin-inline: auto;
+    padding-inline: 32px;
+}
+
+.content-tag {
+    display: inline-block;
+    font: 500 10px/1.2 var(--font-family);
+    letter-spacing: 0.04em;
+    color: var(--text-color-primary);
+    text-transform: uppercase;
+    background-color: var(--brand-color-dark);
+    box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.251);
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
 a {
     text-decoration: none;
     color: inherit;
