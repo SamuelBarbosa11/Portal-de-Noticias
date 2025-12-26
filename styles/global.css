@@ -31,6 +31,11 @@ img {
     max-width: 100%;
 }
 
+main {
+    margin-top: 40px;
+    gap: 80px;
+}
+
 .container {
     max-width: 1280px;
     margin-inline: auto;
@@ -58,22 +63,6 @@ a:hover {
     color: var(--brand-color-light);
 }
 
-h1 {
-    font: var(--h1);
-}
-
-h2 {
-    font: var(--h2);
-}
-
-h3 {
-    font: var(--h3);
-}
-
-span {
-    font: var(--text-span);
-}
-
-p {
-    font: var(--paragraph);
+h1 ,h2, h3 {
+    font: inherit;
 }
